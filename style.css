@@ -48,3 +48,42 @@ body{
     
     
 }
+/* main player style */
+main{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 85px;
+    gap: 30px;
+}
+.container{
+    height:550px ;
+    width: 330px;
+    box-shadow: 10px;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+   
+    
+    
+}
+.players{
+   
+    border: 2px solid white;
+    margin-top:15px ;
+    margin-left: 15px;
+    
+    margin-right: 15px;
+    margin-bottom: 33px;
+    
+}
+.player-img img{
+    height:256px ;
+    width: 300px;
+
+}
+p{
+    font-weight: 100;
+
+}
