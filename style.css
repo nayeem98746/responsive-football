@@ -25,7 +25,7 @@ body{
 }
 .title h1{
     color: white;
-    font-size: 64px;
+    font-size: 49px;
     padding-top: 200px;
     margin-left:168px ;
     margin-bottom: 200px;
@@ -40,12 +40,12 @@ body{
     background-color: #E02C6D;
     color: white;
     border-radius: 10px;
-    transition: trasnform 3s ease 0.2s;
+   
     
 }
 .live-button:hover button{
     transform:  scale(2,2);
-    
+    transition: trasnform 3s ease 0.2s;
     
 }
 /* main player style */
@@ -87,3 +87,37 @@ p{
     font-weight: 100;
 
 }
+/* main player style */
+/* footer */
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px gray;
+    height: 213px;
+    width: 483px;
+    margin-left: 551px;
+    margin-right: 405.13px;
+    margin-top: 162px;
+    
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+    justify-content: center;
+
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-icon i{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.copyright-icon{
+    text-align: center;
+}
+/* end footer */
+
