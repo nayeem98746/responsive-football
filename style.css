@@ -9,9 +9,14 @@ body{
 .top-banner{
     border: 2px solid #2D25A0;
     background-color: #2D25A0 ;
+    height: 695px;
+    width: 1439px;
+    display: flex;
+    justify-content: center;
 }
 .banner-flex{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
 }
@@ -54,10 +59,13 @@ main{
     grid-template-columns: repeat(3 , 1fr);
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 180px;
     margin-top: 85px;
+    margin-right: 210px;
     gap: 30px;
 }
+
+
 .container{
     height:550px ;
     width: 330px;
@@ -120,4 +128,24 @@ p{
     text-align: center;
 }
 /* end footer */
+/* media Queries  */
+/* mobile divices */
+@media only screen and (max-width:688px) {
+    .top-banner{
+        width: 360px;
 
+    }
+    .banner-flex , main  {
+        
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+        .footer-icon
+    }
+    .footer-icon{
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+}
